@@ -5,5 +5,5 @@ class City(models.Model):
     name=models.CharField(max_length=25)
     def __str__(self):
         return self.name
-    class meta:
+    class Meta:
         verbose_name_plural='cities'
